@@ -1,0 +1,71 @@
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+<!--    <changeSet id="1.0.0" author="I">-->
+<!--        <createTable tableName="notifications">-->
+<!--            <column name="id" type="bigint" autoIncrement="true">-->
+<!--                <constraints primaryKey="true" nullable="false"/>-->
+<!--            </column>-->
+<!--            -->
+<!--            <column name="type" type="VARCHAR(100)">-->
+<!--                <constraints nullable="false" unique="false"/>-->
+<!--            </column>-->
+
+<!--            <column name="title" type="VARCHAR(100)">-->
+<!--                <constraints nullable="false" unique="false"/>-->
+<!--            </column>-->
+
+<!--            <column name="content" type="VARCHAR(100)">-->
+<!--                <constraints nullable="false" unique="false"/>-->
+<!--            </column>-->
+
+<!--            <column name="last_sent_at" type="timestamp" defaultValue="CURRENT_TIMESTAMP">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+
+<!--            <column name="created_date" type="timestamp" defaultValue="CURRENT_TIMESTAMP">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+
+<!--            <column name="update_date" type="timestamp" defaultValue="CURRENT_TIMESTAMP">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+
+
+
+
+
+
+
+<!--        </createTable>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="1.0.1" author="I">-->
+<!--        <createTable tableName="roles">-->
+
+<!--            <column name="id" type="bigint" autoIncrement="true">-->
+<!--                <constraints primaryKey="true" nullable="false"/>-->
+<!--            </column>-->
+
+<!--            <column name="type" type="VARCHAR(100)">-->
+<!--                <constraints nullable="false" unique="false"/>-->
+<!--            </column>-->
+
+<!--            <column name="created_date" type="timestamp" defaultValue="CURRENT_TIMESTAMP">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+
+<!--            <column name="update_date" type="timestamp" defaultValue="CURRENT_TIMESTAMP">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+
+<!--            <column name="type" type="VARCHAR(100)">-->
+<!--                <constraints nullable="false" unique="false"/>-->
+<!--            </column>-->
+
+<!--        </createTable>-->
+<!--    </changeSet>-->
+
+
+</databaseChangeLog>
